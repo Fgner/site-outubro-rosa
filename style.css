@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: #ff69b4;
+  height: 12.84vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+header div img {
+  width: 100px;
+  height: 100px;
+}
+header div h1 {
+  color: #E4EEF1;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  padding-left: 7px;
+}
+header .nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 50.5vw;
+}
+header .nav-links .links {
+  text-decoration: none;
+  color: #E4EEF1;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  background-color: #FFD9EC;
+}
+.container1 p {
+  color: #000000;
+  font-size: 25px;
+  line-height: 34px;
+  font-weight: 400;
+  height: 265px;
+  width: 600px;
+}
+.container1 img {
+  width: 365px;
+  height: 355px;
+}
+
+.container2 {
+  background-color: #ff69b4;
+  height: 262px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container2 img {
+  width: 421px;
+  height: 234px;
+}
+.container2 p {
+  width: 708px;
+  height: 174px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #E4EEF1;
+}
+
+.container3 {
+  height: 426px;
+  background-color: #FFD9EC;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container3 img {
+  width: 250px;
+  height: 250px;
+}
+
+footer {
+  height: 150px;
+  background-color: #ff69b4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .logo-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+footer .logo-footer .link-logo {
+  display: flex;
+  align-items: center;
+}
+footer .logo-footer .link-logo img {
+  width: 57.84px;
+  height: 56px;
+}
+footer .criadores {
+  height: 110px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #E4EEF1;
+  display: flex;
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+footer .logo-out-rosa {
+  width: 105px;
+  height: 109px;
+}/*# sourceMappingURL=style.css.map */
